@@ -1,12 +1,37 @@
-# Virtual environments
+# ------------------------
+# Virtual Environments
+# ------------------------
 VAE_ENV/
+dcgan_env/
+.venv/
 venv/
 .env/
-.env*/
+*/env/
+*/ENV/
+*/.env/
+*/.venv/
 
-# Python cache
+# ------------------------
+# Python Cache / Build
+# ------------------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
 
-# Jupyter notebook checkpoints
+# ------------------------
+# Jupyter Notebook
+# ------------------------
 .ipynb_checkpoints/
+
+# ------------------------
+# OS / Editor Garbage
+# ------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
