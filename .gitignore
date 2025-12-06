@@ -12,6 +12,30 @@ venv/
 */.venv/
 
 # ------------------------
+# Datasets (CelebA + other large datasets)
+# ------------------------
+# Zip files
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# CelebA specific folders/files
+celeba.zip
+celeba-dataset.zip
+celeba/
+CelebA/
+img_align_celeba/
+img_align_celeba.zip
+
+# Generic dataset folders
+dataset/
+datasets/
+data/
+images/
+imgs/
+
+# ------------------------
 # Python Cache / Build
 # ------------------------
 __pycache__/
